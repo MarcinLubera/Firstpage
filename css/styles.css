@@ -1,0 +1,43 @@
+body {
+    background: rgba(20, 131, 26, .9);
+
+}
+.primary {
+    background: rgb(230, 64, 14);
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.secondary {
+    background: rgb(0, 0, 0); 
+    color: #fff;
+    text-align: right;
+    float: right;
+}
+.secondary p {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    color: #000;
+    text-align: right;
+}
+.tertiary {
+    clear: both;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tertiary .absolutny {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    background: red;
+}
